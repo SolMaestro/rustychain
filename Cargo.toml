@@ -1,0 +1,10 @@
+[package]
+name = "rustychain"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4" //chrono is used here as a dependency for timestamps.
+sha2 = "0.10"  //sha2 for SHA256 hashing.
+serde = { version = "1.0", features = ["derive"] } //For serialization i.e converting an object into stream of bytes to store the object or transmit it to memory.
+serde_json = "1.0"  //This is for printing the blockchain in JSON format.
