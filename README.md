@@ -9,15 +9,17 @@
 
 --------------------------  
 
-## 📚 Table of Contents  
+## Table of Contents  
 
-- [🧠 About the Project](#-about-the-project)  
-- [🚀 Features](#-features)  
-- [🛠️ Built With](#️-built-with)  
-- [📂 Project Structure](#-project-structure)  
-- [🔭 Roadmap](#-roadmap)  
-- [⚡ Getting Started](#-getting-started)  
-- [🤝 Contributing](#-contributing)  
+- [About the Project](#-about-the-project)  
+- [Features](#-features)  
+- [Built With](#️-built-with)  
+- [Project Structure](#-project-structure)  
+- [Roadmap](#-roadmap)  
+- [Getting Started](#-getting-started)  
+- [Contributing](#-contributing)
+
+----------------------------
 
 ## About the Project  
 **RustyChain** is a simple blockchain built using safe, modern Rust.   
@@ -30,17 +32,17 @@ It’s ideal for Rust developers like myself or blockchain enthusiasts looking t
 
 ----------------------------  
 
-## 🚀 Features  
+## Features  
 
-✅ Immutable Block structure  
-🔗 Hash-linked chain  
-🕒 Timestamped block data (via chrono)  
-📄 JSON-serializable chain output  
-📦 Modular code with `block`, `blockchain`, `main`  
+ Immutable Block structure  
+ Hash-linked chain  
+ Timestamped block data (via chrono)  
+ JSON-serializable chain output  
+ Modular code with `block`, `blockchain`, `main`  
 
 ----------------------------  
 
-## 🛠️ Built With  
+## Built With  
 
 | Tool/Crate   | Purpose             |  
 |-------------|---------------------|  
@@ -52,18 +54,18 @@ It’s ideal for Rust developers like myself or blockchain enthusiasts looking t
 
 -----------------------------  
 
-## 📂 Project Structure and Content Meaning  
-rustychain/
-├── src/
-│ ├── block.rs - Block definition and hashing logic
-│ ├── blockchain.rs - Chain management and validation
-│ └── main.rs - Entry point
-├── Cargo.toml - Project manifest
-└── README.md - You’re here!
+## Project Structure and Content Meaning  
+rustychain/  
+├── src/  
+│ ├── block.rs - Block definition and hashing logic  
+│ ├── blockchain.rs - Chain management and validation  
+│ └── main.rs - Entry point  
+├── Cargo.toml - Project manifest  
+└── README.md - You’re here!  
 
 ------------------------------  
 
-## 🔭 Roadmap  
+## Roadmap  
 
 - [x] Genesis block creation  
 - [x] Block chaining with SHA-256  
@@ -83,7 +85,7 @@ git clone https://github.com/yourusername/rustychain.git
 cd rustychain  
 cargo run  
 
-🤝 Contributing  
+ ## Contributing  
 This project can also be considered a learning project so PRs are welcome, especially from other Rust learners who are interested in blockchain like i am!  
 Feel free to:  
 Fork the repo  
