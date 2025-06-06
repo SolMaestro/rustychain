@@ -21,7 +21,7 @@ impl Blockchain {
 
   // Add a new block to the chain
   pub fn add_block(&mut self, data: String) {
-    let last_block = self.lastest_block();
+    let last_block = self.latest_block();
     let new_block = Block::new(last_block.index + 1, data, last_block.hash.clone());
     self.chain.push(new_block);
   }
